@@ -1,0 +1,26 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="public-data.html">
+
+
+<dom-module id="data-provider">
+	<template>
+		<public-data data="{{publicData}}"></public-data>
+	</template>
+
+	<script>
+		(function() {
+			'use strict';
+
+			Polymer({
+				is: 'data-provider',
+
+				properties: {
+					publicData: {
+						type: Object,
+						notify: true
+					}
+				}
+			});
+		})();
+	</script>
+</dom-module>

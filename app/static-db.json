@@ -1,0 +1,19 @@
+{
+	"menu": [
+		{
+			"title": "Inicio",
+			"icon": "home",
+			"url": "/home"
+		},
+		{
+			"title": "Calendario",
+			"icon": "notification:event-available",
+			"url": "/calendar"
+		},
+		{
+			"title": "Personal",
+			"icon": "folder-shared",
+			"url": "/profile"
+		}
+	]
+}
